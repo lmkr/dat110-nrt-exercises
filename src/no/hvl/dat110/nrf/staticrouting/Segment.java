@@ -14,10 +14,10 @@ public class Segment {
 	}
 	
 	public Segment clone() {
-		
+
+		// TODO: consider cloning payload
 		return new Segment(this.payload);
-		
-		// FIXME: clone payload?
+
 	}
 
 	public byte[] getBytes() {
